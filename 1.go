@@ -8,5 +8,5 @@ import (
 
 func main() {
 	a := emoji.Sprint(":world_map:")
-	fmt.Println("Hello " + a[:len(a)-1] + "!")
+	fmt.Println("Hello " + a + "!")
 }
